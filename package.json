@@ -18,13 +18,7 @@
   "engines": {
     "node": ">=16.x"
   },
-  "keywords": [
-    "TikTok",
-    "video downloader",
-    "Node.js",
-    "Express",
-    "Vercel"
-  ],
+  "keywords": ["TikTok", "video downloader", "Node.js", "Express", "Vercel"],
   "author": "Bandaheali",
   "license": "MIT"
 }
