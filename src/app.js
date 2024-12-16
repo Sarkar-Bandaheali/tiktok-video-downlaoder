@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
-app.use('/api', downloaderRoute);
+app.use('/api', downloaderRoute); // Add downloader routes under "/api"
 
 // Start server
 const PORT = process.env.PORT || 3000;
